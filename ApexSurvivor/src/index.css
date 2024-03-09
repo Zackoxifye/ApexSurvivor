@@ -1,0 +1,42 @@
+/*__________________________________________General_____________________________________________________________________________________*/
+
+body {
+  background-color: cornsilk;
+  margin: 0;
+  padding: 0;
+}
+
+/*__________________________________________Navbar_____________________________________________________________________________________*/
+
+#navbar {
+  background-color: brown;
+  height: 70px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 200%;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+/*_________________________________________Homepage__________________________________________________________________________*/
+
+.homepageTitle,
+.homepageSubTitle {
+  text-align: center;
+}
+
+.homepageTitle {
+  font-size: 500%;
+}
+
+.homepageSubTitle {
+  font-size: 150%;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
