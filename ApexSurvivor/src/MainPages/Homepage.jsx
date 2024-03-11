@@ -5,10 +5,11 @@ export default function Homepage() {
     <div>
       <h1 className="homepageTitle">Homepage</h1>
       <p className="homepageSubTitle">Slogan</p>
-      <div className="searchBar">
+      <div className="searchBarContainer">
         <input
           type="text"
           placeholder="Search Apex Survivor..."
+          className="searchBar"
           // value={searchQuery}
           // onChange={handleInputChange}
         />
