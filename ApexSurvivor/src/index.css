@@ -66,4 +66,32 @@ body {
   height: 40px;
   font-size: 130%;
   padding-left: 10px;
+  border-radius: 100px 0 0 100px;
+  border-right: none;
+}
+
+.searchButton {
+  border-radius: 0 100px 100px 0;
+}
+
+.searchButton:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+/*HOMEPAGE_FEATURED_ITEMS*/
+
+.square1,
+.square2,
+.square3 {
+  background-color: brown;
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+}
+
+.squareContainer {
+  display: flex;
+  justify-content: center;
 }
