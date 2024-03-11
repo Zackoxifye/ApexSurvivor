@@ -86,12 +86,13 @@ body {
 .square2,
 .square3 {
   background-color: brown;
-  width: 150px;
-  height: 150px;
-  padding: 50px;
+  width: 450px;
+  height: 450px;
 }
 
 .squareContainer {
   display: flex;
   justify-content: center;
+  justify-content: space-between;
+  margin: 5%;
 }

@@ -8,7 +8,7 @@ export default function Homepage() {
       <div className="searchBarContainer">
         <input
           type="text"
-          placeholder="Search Apex Survivor..."
+          placeholder="Search..."
           className="searchBar"
           // value={searchQuery}
           // onChange={handleInputChange}
