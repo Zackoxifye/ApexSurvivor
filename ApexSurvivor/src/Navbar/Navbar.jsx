@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div id="navbar">
-      <Link to="/">Back to Home</Link>
+      <Link to="/">
+        <img src="/ASGTransparent.png" alt="Home" className="homeButton" />
+      </Link>
       <Link to="/AllGames">All Games</Link>
       <Link to="/Videos">Videos</Link>
       <Link to="/Images">Images</Link>

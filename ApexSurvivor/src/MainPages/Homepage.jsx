@@ -3,12 +3,12 @@ import React from "react";
 export default function Homepage() {
   return (
     <div>
-      <h1 className="homepageTitle">Homepage</h1>
-      <p className="homepageSubTitle">Slogan</p>
+      <h1 className="homepageTitle">APEX SURVIVOR</h1>
+      <p className="homepageSubTitle">Unleash Your Survival Instincts</p>
       <div className="searchBarContainer">
         <input
           type="text"
-          placeholder="Search..."
+          placeholder="Search Apex Survivor..."
           className="searchBar"
           // value={searchQuery}
           // onChange={handleInputChange}

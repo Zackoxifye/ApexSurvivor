@@ -21,7 +21,7 @@ function App() {
           <Route path="/images" element={<Images />} />
           <Route path="/videos" element={<Videos />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/signin" element={<SignIn />} />
+          <Route path="/sign in" element={<SignIn />} />
           <Route path="/account" element={<Account />} />
         </Routes>
       </BrowserRouter>
