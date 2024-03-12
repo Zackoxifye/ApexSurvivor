@@ -2,6 +2,7 @@
 
 body {
   background-color: cornsilk;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -30,13 +31,6 @@ body {
 }
 
 /*_________________________________________Homepage__________________________________________________________________________*/
-
-.homepageTitle,
-.homepageSubTitle,
-.featuredItems,
-.searchBar {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .homepageTitle,
 .homepageSubTitle {

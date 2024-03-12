@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import Homepage from "./MainPages/Homepage";
-import AllGames from "./MainPages/AllGames";
+import AllGames from "./Games/AllGames";
 import Discussions from "./MainPages/Discussions";
 import Images from "./MainPages/Images";
 import Register from "./MainPages/Register";
