@@ -3,7 +3,12 @@ import React from "react";
 export default function Homepage() {
   return (
     <div>
-      <h1 className="homepageTitle">APEX SURVIVOR</h1>
+      <div className="homepageTitleImageContainer">
+        <img
+          src="/ApexSurvivorBannerCanyonExpanded.jpeg"
+          className="homepageTitleImage"
+        />
+      </div>
       <p className="homepageSubTitle">Unleash Your Survival Instincts</p>
       <div className="searchBarContainer">
         <input
