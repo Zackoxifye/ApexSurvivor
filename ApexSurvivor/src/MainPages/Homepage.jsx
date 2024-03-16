@@ -5,7 +5,7 @@ export default function Homepage() {
     <div>
       <div className="homepageTitleImageContainer">
         <img
-          src="/ApexSurvivorBannerCanyonExpanded.jpeg"
+          src="/ApexSurvivorBannerCanyonDenoise.jpeg"
           className="homepageTitleImage"
         />
       </div>
@@ -18,7 +18,14 @@ export default function Homepage() {
           // value={searchQuery}
           // onChange={handleInputChange}
         />
-        <button className="searchButton">Search</button>
+        <button className="searchButton">
+          <img
+            src="/ApexSurvivorSearchIcon.png"
+            alt="Search"
+            className="searchbarMagnifyingGlass"
+          />
+          <img src="/ASGearSearchIcon.png" className="searchbarGearIcon" />
+        </button>
       </div>
       <h2 className="featuredItems">Featured Items</h2>
       <div className="squareContainer">

@@ -16,8 +16,13 @@ export default function Navbar() {
       <Link to="/Images">Images</Link>
       <Link to="/Discussions">Discussions</Link>
       <Link to="/Sign In">Sign In</Link>
-      <Link to="/Register">Register</Link>
-      <Link to="/Account">Account</Link>
+      <Link to="/Account">
+        <img
+          src="/ApexSurvivorAccountIcon.png"
+          alt="Account"
+          className="accountButton"
+        />
+      </Link>
     </div>
   );
 }
